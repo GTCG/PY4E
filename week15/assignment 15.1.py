@@ -14,7 +14,7 @@
 #    name    TEXT UNIQUE
 #);
 
-CREATE TABLE Album (
+#CREATE TABLE Album (
 #    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 #    artist_id  INTEGER,
 #    title   TEXT UNIQUE
