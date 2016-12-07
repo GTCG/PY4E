@@ -3,8 +3,6 @@
 #You should use raw_input to read a string and float() to convert the string to a number.
 #Do not worry about error checking or bad user data.
 
-
-
 hrs = raw_input("Enter Hours:")
 rateperhour = raw_input("enter rate per hour:")
 result = float(hrs) * float(rateperhour)
