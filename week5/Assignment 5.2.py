@@ -32,4 +32,4 @@ print "Minimum is", smallest
 #Maximum is 7
 #Minimum is 4
 
-#Watch the Capitals!!"
+#Watch the Capitals!!
