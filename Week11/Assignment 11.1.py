@@ -15,6 +15,7 @@
 #everyone needs to know how to program ...
 
 #This is a sample program and I do not guarantee it is the solution to the actual assignment, as this differs often.
+#I have included a sample file to test the program.
 
 import re
 count = 0
