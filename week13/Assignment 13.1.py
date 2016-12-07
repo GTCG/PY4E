@@ -1,8 +1,8 @@
-# Extracting Data from XML
+#Extracting Data from JSON
 
-In this assignment you will write a Python program somewhat similar to http://www.pythonlearn.com/code/geoxml.py. 
-#The program will prompt for a URL, read the XML data from that URL using urllib and then parse and extract the 
-#comment counts from the XML data, compute the sum of the numbers in the file. 
+#In this assignment you will write a Python program somewhat similar to http://www.pythonlearn.com/code/json2.py. 
+#The program will prompt for a URL, read the JSON data from that URL using urllib and then parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file and enter the sum below:
+#We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment. 
 
 #I do not guarantee this is the solution to the actual assignment, as this differs from time to time.
 
@@ -25,8 +25,8 @@ print count
 #Sample Execution
 
 #$ python solution.py 
-#Enter location: http://python-data.dr-chuck.net/comments_42.xml
-#Retrieving http://python-data.dr-chuck.net/comments_42.xml
-#Retrieved 4204 characters
+#Enter location: http://python-data.dr-chuck.net/comments_42.json
+#Retrieving http://python-data.dr-chuck.net/comments_42.json
+#Retrieved 2733 characters
 #Count: 50
 #Sum: 2...
