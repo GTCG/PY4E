@@ -11,3 +11,11 @@ while True:
         break
     print(data.decode())
 mysock.close()
+
+
+# Enter the header values in each of the fields below and press "Submit".
+#Last-Modified:
+#ETag:
+#Content-Length:
+#Cache-Control:
+#Content-Type:
