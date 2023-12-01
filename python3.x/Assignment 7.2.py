@@ -8,12 +8,11 @@ except:
 for line in fhand:
     line = line.rstrip()
     if line.startswith ("X-DSPAM-Confiden"):
-        print (line)
+        #print (line)
         stripped = line.strip("X-DSPAM-Confidence: ")
         countx = countx + float(stripped)
         countline = countline + 1
         fhand.close
-print ("Average spam confidence:", countx / countline)
 print ("Average spam confidence:", countx / countline)
 
 #desired output:
