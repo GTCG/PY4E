@@ -1,3 +1,5 @@
+mostName = None
+mostCount = None
 name = input("Enter file:")
 dict = {}
 if len(name) < 1 : name = "mbox-short.txt"
@@ -11,10 +13,9 @@ for line in handle:
 			dict[email] =1
 		else:
 			dict[email] +=1
-mostName = None
-mostCount = None
+handle.close()
 for mail in dict:
    if mostCount == None or mostCount < dict[email]:
       mostName = email
       mostCount = dict[email]
-print ('%s %d' % (mostName, mostCount))
+print (mostName, mostCount)
