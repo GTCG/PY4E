@@ -1,3 +1,4 @@
+#this file is an assignment which belongs to chapter 11: Regular expressions
 import re
 count = 0
 hand = open("numbers.txt")
