@@ -7,12 +7,12 @@
 #I do not guarantee this is the solution to the actual assignment, as this differs from time to time.
 
 import json
-import urllib
+from urllib.request import urlopen
 count = 0
 
-url = "http://python-data.dr-chuck.net/comments_283400.json"
+url = "http://py4e-data.dr-chuck.net/comments_1935807.json"
 print ("retrieving URL. Stand by.")
-uh = urllib.urlopen(url)
+uh = urlopen(url)
 data= uh.read()
 
 info = json.loads(data)
@@ -20,6 +20,4 @@ for item in info["comments"]:
 	#print item["count"]
 	number = int(item["count"])
 	count = count + number
-print count
-
-#Sample Execution
+print (count)
