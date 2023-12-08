@@ -12,15 +12,15 @@
 #<tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>
 #<tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
 
-import urllib
+from urllib.request import urlopen
 import re
 count = 0
-from BeautifulSoup import *
+from bs4 import BeautifulSoup
 
 url = "http://python-data.dr-chuck.net/comments_283399.html"
 
-html = urllib.urlopen(url).read()
-soup = BeautifulSoup(html)
+html = urlopen(url).read()
+soup = BeautifulSoup(html, 'html.parser')
 
 tags = soup("span")
 
