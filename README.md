@@ -1,4 +1,4 @@
-# PY4E -- Python for everybody course --
+# PY4E -- Python for Everybody course --
 Lectured by Dr. Charles Severance @ Coursera: http://www.coursera.org
 
 Here you can find all the assignments for the Python for everybody specialization course which I took from June til December 2016 on Coursera.
