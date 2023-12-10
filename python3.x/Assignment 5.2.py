@@ -15,7 +15,7 @@ while True:
     	if largest is None or largest < num :
     		largest = num;
 
-    except Exception, e:
+    except:
     	print ("Invalid input")
 
 print ("Maximum is", largest)
