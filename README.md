@@ -8,4 +8,4 @@ I also created a capstone project called "Deathrow". You can find it on my Githu
 
 Feel free to report errors or possible improvements.
 
-**I have updated the 3.x assignments with a few bugfixes and also added a few assignments that were missing around December 2023.**
+**I have updated the 3.x assignments with a few bugfixes and also added a few assignments that were missing. Last update was around December 2023.**
