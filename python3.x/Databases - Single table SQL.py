@@ -21,12 +21,9 @@ Note: This assignment must be done using SQLite - in particular, the SELECT quer
 
 '''
 
-
-
-
 import sqlite3
 
-conn = sqlite3.connect('database.sqlite')
+conn = sqlite3.connect('database.sqlite') #create the fome database.sqlite
 cur = conn.cursor()
 
 cur.executescript('''
