@@ -17,6 +17,4 @@ except:
     quit()
 pay = computepay(hours, rate)
 print ("Pay", (str(pay)))
-
-#desired output
-#498.75
+#desired output: Pay 498.75
